@@ -2,14 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <>
-        courses
-        <h1 className='bg-red-600 text-white'>Hello Courses</h1>
-        <div></div>
-        <main></main>
-        <article></article>
-        <blockquote></blockquote>
-    </>
+    <div className="flex item-center justify-center h-dvh">
+      <h1 className="text-blue 500 text-3xl font-bold"> This is the main branch</h1>
+    </div>
+
   )
 }
 
